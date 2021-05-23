@@ -88,7 +88,7 @@ textarea {
 
 .container-fluid1{
     padding-right: 0;
-    padding-left: 0;
+    padding-left: 10px;
     margin-right: 0;
     margin-left: 0;
     display: flex;
@@ -107,7 +107,7 @@ textarea {
 
 .container-fluid3{
     padding-right: 0;
-    padding-left: 0;
+    padding-left: 10px;
     margin-right: 0;
     margin-left: 0;
     display: flex;
@@ -132,10 +132,12 @@ textarea {
 }
 
 .about-her{
-    text-align: left;
+    text-align: justify;
     word-spacing: 2px;
     line-height: 40px;
     padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 
