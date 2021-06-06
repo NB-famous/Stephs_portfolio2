@@ -22,7 +22,6 @@ app.use(express.json())
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/frontend/index.html')
-    res.sendFile(__dirname + '/frontend/sitemap.xml')
     res.sendFile(__dirname + '/frontend/main.js')
     res.sendFile(__dirname + '/frontend/style.css')
 })
